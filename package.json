@@ -6,7 +6,7 @@
     "dev": "concurrently \"npm run dev:demo-content\" \"npm run dev:frontend\"",
     "dev:demo-content": "cd demo-content && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
-    "install:all": "cd demo-content && npm install && cd ../frontend && npm install",
+    "install:all": "npm install && cd demo-content && npm install && cd ../frontend && npm install",
     "build": "cd frontend && npm run build"
   },
   "devDependencies": {
