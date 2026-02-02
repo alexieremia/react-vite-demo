@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fef7ed;
+  --color-cream-dark: #fde9d0;
+  --color-amber-accent: #f59e0b;
+  --font-family-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-family-sans);
+}
